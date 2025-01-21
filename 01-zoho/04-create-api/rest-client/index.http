@@ -1,0 +1,11 @@
+POST https://www.zohoapis.in/crm/v2/functions/createcontact/actions/execute?auth_type=apikey&zapikey=1003.3a9ed5459b4a1c8cb1a201335e78220e.2b8bc69defe67cd3423568c67e4b475f
+Content-Type: application/json
+
+{
+    "arguments": {
+        "firstName": "Praveen",
+        "lastName": "Ande",
+        "email": "praveenande2024@gmail.com",
+        "phone": "8185995403"
+    }
+}
