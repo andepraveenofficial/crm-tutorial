@@ -43,25 +43,34 @@ POST {{apiUrl}}/oauth/v2/token?grant_type={{grantType}}&refresh_token={{refreshT
 
 
 ### GET Modules ###
-@authToken=1000.3323ad1dcb9b39ff3b16866c3aee6872.676cb19e620e47065787dbabc27a4788
+@accessToken=1000.af5a09db4ff48e1c14062f5758da6544.a4c97a779209eb0347d737dbc00b1673
 
 ### Get All Leads
-GET https://www.zohoapis.in/crm/v7/Leads?fields=Last_Name
-Authorization: Zoho-oauthtoken {{authToken}}
+GET https://www.zohoapis.in/crm/v7/Leads?fields=First_Name, 
+Authorization: Zoho-oauthtoken {{accessToken}}
 
 ### Create Lead
 POST https://www.zohoapis.in/crm/v7/Leads
-Authorization: Zoho-oauthtoken {{authToken}}
+Authorization: Zoho-oauthtoken {{accessToken}}
 Content-Type: application/json
 
 {
   "data": [
     {
-      "Last_Name": "Doe",
-      "Email": "john.doe@example.com",
+      "Last_Name": "Praveen",
+      "Email": "praveenande84@example.com",
       "Record_Status__s": "Open",
       "Converted__s": false,
       "Converted_Date_Time": "2025-01-22T08:00:00Z"
     }
   ]
 }
+
+### Get Single Lead
+@leadId=846472000000374028
+GET https://www.zohoapis.in/crm/v7/Leads/{{leadId}}
+Authorization: Zoho-oauthtoken {{accessToken}}
+
+### Get All Deals
+GET https://www.zohoapis.in/crm/v7/Deals?fields=Amount
+Authorization: Zoho-oauthtoken {{accessToken}}

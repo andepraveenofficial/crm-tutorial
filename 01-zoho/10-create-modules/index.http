@@ -1,0 +1,7 @@
+### GET Modules ###
+@authToken=1000.3323ad1dcb9b39ff3b16866c3aee6872.676cb19e620e47065787dbabc27a4788
+
+### Get All myproducts
+GET https://www.zohoapis.in/crm/v7/myproducts?fields=name
+Authorization: Zoho-oauthtoken {{authToken}}
+
