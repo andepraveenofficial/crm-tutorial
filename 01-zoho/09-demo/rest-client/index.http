@@ -1,0 +1,67 @@
+### Health Check
+GET http://localhost:5000/health
+
+### ZOHO ###
+
+@clientId=1000.YSPJ1LD3F006IWTG3YPQJ1FAUZA1NW
+@clientSecret=0aab793d085860756d0e09f2772bac714b295ef213
+@code=1000.8d4e5bded91bce1fb4d8ed2c31e77a39.f342fe26ebc6c2dcc6b3177cb6d7dfef
+@grantType=authorization_code
+
+@apiUrl=https://accounts.zoho.in
+
+### Generate refreshToken
+POST {{apiUrl}}/oauth/v2/token?grant_type={{grantType}}&client_id={{clientId}}&client_secret={{clientSecret}}&code={{code}}
+
+
+
+# {"scope":["ZohoCRM.modules.leads.ALL","ZohoCRM.modules.deals.ALL","ZohoCRM.settings.ALL"],"expiry_time":1737531159751,"client_id":"1000.YSPJ1LD3F006IWTG3YPQJ1FAUZA1NW","client_secret":"0aab793d085860756d0e09f2772bac714b295ef213","code":"1000.42f639cccedf88b697bf4bfe109b7614.010019e94e62db924f9cde14fc932b6c","grant_type":"authorization_code"}
+
+# {
+#   "access_token": "1000.b6d47fe31fc046386da702f296d562c2.b3d7f68d4dca1f8e6aa21f28d28ab9e5",
+#   "refresh_token": "1000.5bde1559bcecbf098d06ce2ab1f81fad.9c51cdc89c09e87d5bc2c0dab09f46ea",
+#   "scope": "ZohoCRM.modules.leads.ALL ZohoCRM.modules.deals.ALL ZohoCRM.settings.ALL",
+#   "api_domain": "https://www.zohoapis.in",
+#   "token_type": "Bearer",
+#   "expires_in": 3600
+# }
+
+@refreshToken=1000.56077ba12df3267659fb0323cb07c4f9.8220c139d78e8c5c30559c57e0e33c2e
+@grantType=refresh_token
+###  Generate accessToken
+POST {{apiUrl}}/oauth/v2/token?grant_type={{grantType}}&refresh_token={{refreshToken}}&client_id={{clientId}}&client_secret={{clientSecret}}
+
+
+
+# {
+#   "access_token": "1000.3323ad1dcb9b39ff3b16866c3aee6872.676cb19e620e47065787dbabc27a4788",
+#   "scope": "ZohoCRM.modules.leads.ALL ZohoCRM.modules.deals.ALL ZohoCRM.settings.ALL",
+#   "api_domain": "https://www.zohoapis.in",
+#   "token_type": "Bearer",
+#   "expires_in": 3600
+# }
+
+
+### GET Modules ###
+@authToken=1000.3323ad1dcb9b39ff3b16866c3aee6872.676cb19e620e47065787dbabc27a4788
+
+### Get All Leads
+GET https://www.zohoapis.in/crm/v7/Leads?fields=Last_Name
+Authorization: Zoho-oauthtoken {{authToken}}
+
+### Create Lead
+POST https://www.zohoapis.in/crm/v7/Leads
+Authorization: Zoho-oauthtoken {{authToken}}
+Content-Type: application/json
+
+{
+  "data": [
+    {
+      "Last_Name": "Doe",
+      "Email": "john.doe@example.com",
+      "Record_Status__s": "Open",
+      "Converted__s": false,
+      "Converted_Date_Time": "2025-01-22T08:00:00Z"
+    }
+  ]
+}
