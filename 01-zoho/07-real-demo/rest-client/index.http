@@ -1,0 +1,9 @@
+@baseUrl=http://localhost:5000
+
+### Health
+GET {{baseUrl}}/health
+
+### Zoho ###
+
+### Get All Leads
+GET {{baseUrl}}/leads

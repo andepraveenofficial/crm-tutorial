@@ -1,14 +1,35 @@
+import express from "express"
 import { getModuleData } from "./zoho/zoho.utils.js";
 
 
-// // Call Module
-// (async () => {
-//   try {
-//     const leads = await getModuleData("Leads", "Last_Name,First_Name,Email");
-//     console.log("Fetched Leads:", leads);
-//   } catch (error) {
-//     console.error("Error:", error);
-//   }
-// })();
+const app = express()
+const port = 5000
 
-console.log("Hello World");
+app.get('/health', (req, res) => {
+  res.status(200).send(    
+    {
+    status: 'OK',
+    timestamp: new Date(),
+    uptime: process.uptime()
+    }
+  );
+})
+
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
+
+/* -----> ZOHO <----- */
+
+// Leads Module
+app.get("/leads", async (req, res) => {
+  try {
+    const leads = await getModuleData("Leads", "Last_Name,First_Name,Email");
+    res.status(200).json(leads);
+  } catch (error) {
+    console.error("Leads Fetch Error:", error);
+    res.status(500).json({ message: "Failed to fetch leads", error: error.toString() });
+  }
+})
+

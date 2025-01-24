@@ -43,9 +43,8 @@ const getModuleData = async (moduleName, fields = null, options = {}) => {
       const records = responseObject.getData();
 
       // Dynamic mapping of specified fields
-      return records.map(record => {
+      const result =  records.map(record => {
         const mappedRecord = { id: record.getId() };
-        
         // If specific fields are provided, map only those
         if (fields) {
           fields.split(',').forEach(field => {
@@ -53,9 +52,16 @@ const getModuleData = async (moduleName, fields = null, options = {}) => {
             mappedRecord[trimmedField] = record.getKeyValue(trimmedField);
           });
         }
-        
-        return mappedRecord;
+
+        return mappedRecord
       });
+
+      const serializedLeads = result.map(record => ({
+        ...record,
+        id: record.id.toString() // Convert BigInt to string
+      }));
+
+      return serializedLeads; 
     }
 
     if (responseObject instanceof ZOHOCRMSDK.Record.APIException) {
