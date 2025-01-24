@@ -1,5 +1,5 @@
 import express from "express"
-import { getModuleData } from "./zoho/zoho.utils.js";
+import { getModuleData, getParticularRecord } from "./zoho/zoho.utils.js";
 
 
 const app = express()
@@ -30,6 +30,17 @@ app.get("/leads", async (req, res) => {
   } catch (error) {
     console.error("Leads Fetch Error:", error);
     res.status(500).json({ message: "Failed to fetch leads", error: error.toString() });
+  }
+})
+
+app.get("/leads/:id", async (req, res) => {
+  try {
+    const lead = await getParticularRecord("Leads", req.params.id, "Last_Name,First_Name,Email");
+
+    res.status(200).json(lead);
+  } catch (error) {
+    console.error("lead Fetch Error:", error);
+    res.status(500).json({ message: "Failed to fetch lead", error: error.toString() });
   }
 })
 

@@ -5,5 +5,9 @@ GET {{baseUrl}}/health
 
 ### Zoho ###
 
-### Get All Leads
+### 01 Get All Leads
 GET {{baseUrl}}/leads
+
+### 02 Get Particular Lead
+@leadId=846472000000357398
+GET {{baseUrl}}/leads/{{leadId}}
