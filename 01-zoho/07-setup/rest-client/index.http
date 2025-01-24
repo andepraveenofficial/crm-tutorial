@@ -1,7 +1,0 @@
-@baseUrl=http://localhost:5000
-
-### Home
-GET {{baseUrl}}
-
-### Get All Leads
-GET {{baseUrl}}/zoho/leads

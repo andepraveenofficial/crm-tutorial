@@ -1,0 +1,1850 @@
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:10'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:10'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:12'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:12'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:14'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:14'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:15'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:15'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:18'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:18'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:19'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:19'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:21'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:21'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:23'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:23'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:25'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:25'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:28'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:28'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:32'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:32'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:34'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:34'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:36'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:36'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:37'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:37'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:40'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:40'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:41'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:41'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:43'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:43'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:44'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:44'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:45'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:45'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:46'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:46'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:48'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:48'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:49'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:49'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:50'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:50'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:52'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:52'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:53'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:53'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:54'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:54'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:55'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:55'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:57'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:57'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:58'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:58'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:54:59'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:54:59'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:01'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:01'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:02'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:02'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:04'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:04'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:05'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:05'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:07'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:07'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:08'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:08'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:09'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:09'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:10'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:10'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:11'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:11'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:12'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:12'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:13'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:13'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:15'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:15'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:16'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:16'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:18'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:18'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:22'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:22'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:24'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:24'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:25'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:25'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:27'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:27'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:29'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:29'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:30'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:30'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:31'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:31'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:32'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:33'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:34'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:34'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:35'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:35'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:37'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:37'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:38'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:38'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:39'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:39'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:41'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:41'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:42'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:42'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:43'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:43'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:45'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:45'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:46'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:46'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:48'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:48'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:49'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:49'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:50'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:50'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:51'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:51'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:52'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:52'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:53'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:54'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:55'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:55'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:56'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:56'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:57'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:57'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:55:59'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:55:59'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:00'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:00'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:01'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:01'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:02'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:02'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:03'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:03'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:09'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:09'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception in authenticating current request :  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:10'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:10'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:11'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:11'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception in authenticating current request :  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:11'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:11'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:12'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:12'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception in authenticating current request :  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:12'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:12'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:13'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:13'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception in authenticating current request :  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:14'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:14'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:15'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:15'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception in authenticating current request :  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:15'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:15'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:16'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:16'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception in authenticating current request :  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:17'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:17'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:17'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:17'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception in authenticating current request :  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:18'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:18'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:19'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:19'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception in authenticating current request :  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:19'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:19'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:20'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:20'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception in authenticating current request :  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:20'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:20'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:21'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:21'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception in authenticating current request :  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:22'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:22'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:22'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:22'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception in authenticating current request :  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:23'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:23'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:24'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:24'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception in authenticating current request :  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:24'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:24'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:25'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:25'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception in authenticating current request :  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:25'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:25'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:26'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:26'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception in authenticating current request :  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:27'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:27'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:28'
+}
+{
+  message: 'Access token can be generated by grant token.',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:28'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception in authenticating current request :  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:28'
+}
+{
+  code: 'INVALID TOKEN ERROR',
+  message: 'Exception  invalid_code',
+  cause: null,
+  details: null,
+  level: 'error',
+  stack: 'Error: invalid_code\n' +
+    '    at OAuthToken.parseResponse (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:374:13)\n' +
+    '    at OAuthToken.generateAccessToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:351:18)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async OAuthToken.getToken (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:253:9)\n' +
+    '    at async OAuthToken.authenticate (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/models/authenticator/oauth_token.js:291:92)\n' +
+    '    at async CommonAPIHandler.apiCall (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/routes/middlewares/common_api_handler.js:236:7)\n' +
+    '    at async Utility.getModules (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:1069:20)\n' +
+    '    at async Utility.modifyFields (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:434:27)\n' +
+    '    at async Utility.fileExistsFlow (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:66:7)\n' +
+    '    at async Utility.getFieldsInfo (file:///D:/02-laptop/01-client-interview/01-skills/14-crm/01-zoho/11-demo-app/node_modules/@zohocrm/nodejs-sdk-5.0/lib/utils/util/utility.js:255:9)',
+  timestamp: '2025-01-22 23:56:28'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:30'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:30'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:32'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:32'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:34'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:34'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:35'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:35'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:36'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:36'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:37'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:37'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:39'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:39'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:40'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:40'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:41'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:41'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:42'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:42'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:43'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:43'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:44'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:44'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:46'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:46'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:47'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:47'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:48'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:48'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:49'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:49'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:51'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:51'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:52'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:52'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:53'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:53'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:54'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:54'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:56'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:56'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:57'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:57'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:56:58'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:56:58'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:57:00'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:57:00'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:57:01'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:57:01'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:57:02'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:57:02'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:57:04'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:57:04'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:57:05'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:57:05'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:57:07'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:57:07'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:57:08'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:57:08'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:57:09'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:57:09'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:57:10'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:57:10'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:57:12'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:57:12'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:57:13'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:57:13'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:57:15'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:57:15'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:57:16'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/Leads?fields=First_Name,Last_Name,Email& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["fields","First_Name,Last_Name,Email"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:57:16'
+}
+{
+  message: 'Initialization successful https://www.zohoapis.in',
+  level: 'info',
+  timestamp: '2025-01-22 23:57:18'
+}
+{
+  message: `REQUEST-METHOD = GET , URL = https://www.zohoapis.in/crm/v5/settings/fields?module=Leads& , HEADERS = [["Authorization"," ## can't disclose ## "],["X-ZOHO-SDK","win32/10.0.22631/nodejs-5.0/v20.18.0:3.0.0"]] , PARAMS = [["module","Leads"]].`,
+  level: 'info',
+  timestamp: '2025-01-22 23:57:18'
+}
