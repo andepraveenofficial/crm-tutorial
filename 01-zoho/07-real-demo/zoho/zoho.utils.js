@@ -75,6 +75,7 @@ const getModuleData = async (moduleName, fields = null, options = {}) => {
   }
 };
 
+/* -----> Get Particular Record <----- */
 const getParticularRecord = async (moduleName, recordId, fields=null) => {
   if (!moduleName || typeof moduleName !== "string") {
     throw new Error("Invalid module name");
@@ -132,5 +133,68 @@ const getParticularRecord = async (moduleName, recordId, fields=null) => {
   }
 };
 
+/* -----> Create Record <----- */
+const createRecord = async (moduleName, data) => {
+  if (!moduleName || typeof moduleName !== "string") {
+    throw new Error("Invalid module name. Expected a non-empty string.");
+  }
 
-export { getModuleData, getParticularRecord };
+  if (!data || typeof data !== "object") {
+    throw new Error("Invalid record data provided.");
+  }
+
+  console.log("Initializing Zoho SDK...");
+  await Initializer.initialize(); // Initialize the Zoho SDK
+  console.log("Zoho SDK Initialized.");
+
+  const recordOperations = new ZOHOCRMSDK.Record.RecordOperations(moduleName);
+  const request = new ZOHOCRMSDK.Record.BodyWrapper();
+  const recordsArray = [];
+
+  // Create a new record and add field values dynamically
+  const record = new ZOHOCRMSDK.Record.Record();
+
+  // Adjust field names to match Zoho CRM's field API
+  if (moduleName === "Leads") {
+    // For Leads module, use ZohoCRM's predefined field constants
+    record.addFieldValue(ZOHOCRMSDK.Record.Field.Leads.FIRST_NAME, data.FIRST_NAME);
+    record.addFieldValue(ZOHOCRMSDK.Record.Field.Leads.LAST_NAME, data.LAST_NAME);
+  }
+
+  recordsArray.push(record);
+  request.setData(recordsArray);
+
+  try {
+    const headerInstance = new ZOHOCRMSDK.HeaderMap();
+    const response = await recordOperations.createRecords(request, headerInstance);
+
+    if (response != null) {
+      const responseObject = response.getObject();
+
+      if (responseObject instanceof ZOHOCRMSDK.Record.ActionWrapper) {
+        const actionResponses = responseObject.getData();
+
+        actionResponses.forEach(actionResponse => {
+          if (actionResponse instanceof ZOHOCRMSDK.Record.SuccessResponse) {
+            console.log("Status: " + actionResponse.getStatus().getValue());
+            console.log("Code: " + actionResponse.getCode().getValue());
+            console.log("Message: " + actionResponse.getMessage().getValue());
+          } else if (actionResponse instanceof ZOHOCRMSDK.Record.APIException) {
+            console.log("Status: " + actionResponse.getStatus().getValue());
+            console.log("Code: " + actionResponse.getCode().getValue());
+            console.log("Message: " + actionResponse.getMessage().getValue());
+          }
+        });
+      }
+    } else {
+      throw new Error("Failed to create record in Zoho CRM");
+    }
+  } catch (error) {
+    console.error("Error during record creation:", error);
+    throw error;
+  }
+};
+
+
+/* -----> Export Functions <----- */
+export { getModuleData, getParticularRecord, createRecord };
