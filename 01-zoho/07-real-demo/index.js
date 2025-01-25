@@ -1,5 +1,5 @@
 import express from "express"
-import { getModuleData, getParticularRecord, createRecord, updateRecord, deleteRecord } from "./zoho/zoho.utils.js";
+import { getModuleRecords, getRecordById, createNewRecord, updateRecordById, deleteRecordById } from "./zoho/zoho.utils.js";
 
 
 const app = express()
@@ -27,7 +27,8 @@ app.listen(port, () => {
 // Leads Module
 app.get("/leads", async (req, res) => {
   try {
-    const leads = await getModuleData("Leads", "Last_Name,First_Name,Email");
+    const options =  {page : 1, perPage : 10, fields : ["First_Name","Last_Name","Email"], approved : "both"}
+    const leads = await getModuleRecords("Leads", options);
     res.status(200).json(leads);
   } catch (error) {
     console.error("Leads Fetch Error:", error);
@@ -37,7 +38,7 @@ app.get("/leads", async (req, res) => {
 
 app.get("/leads/:id", async (req, res) => {
   try {
-    const lead = await getParticularRecord("Leads", req.params.id, "Last_Name,First_Name,Email");
+    const lead = await getRecordById("Leads", req.params.id, "Last_Name,First_Name,Email");
 
     res.status(200).json(lead);
   } catch (error) {
@@ -55,7 +56,7 @@ app.post("/leads", async (req, res) => {
       return res.status(400).json({ message: "Invalid lead data provided" });
     }
 
-    const response = await createRecord("Leads",leadData);
+    const response = await createNewRecord("Leads",leadData);
     console.log(response);
 
      res.status(201).json({
@@ -78,7 +79,7 @@ app.put("/leads/:id", async (req, res) => {
       return res.status(400).json({ message: "Invalid lead data provided" });
     }
 
-    const response = await updateRecord("Leads",req.params.id,leadData);
+    const response = await updateRecordById("Leads",req.params.id,leadData);
     console.log(response);
 
      res.status(201).json({
@@ -95,7 +96,7 @@ app.put("/leads/:id", async (req, res) => {
 // Delete Record
 app.delete("/leads/:id", async (req, res) => {
   try {
-    const response = await deleteRecord("Leads",req.params.id);
+    const response = await deleteRecordById("Leads",req.params.id);
     console.log(response);
 
      res.status(201).json({

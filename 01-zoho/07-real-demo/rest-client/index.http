@@ -5,14 +5,14 @@ GET {{baseUrl}}/health
 
 ### Zoho ###
 
-### 01 Get All Leads
+### 01 getModuleRecords
 GET {{baseUrl}}/leads
 
 ### 02 Get Particular Lead
-@leadId=846472000000389029
+@leadId=846472000000389041
 GET {{baseUrl}}/leads/{{leadId}}
 
-### Create Lead
+### 03 Create Lead
 POST {{baseUrl}}/leads
 Content-Type: application/json
 
@@ -22,7 +22,7 @@ Content-Type: application/json
   "EMAIL":"praveenande12@example.com"
 }
 
-### Update Lead
+### 04 Update Lead
 @leadId=846472000000389029
 PUT {{baseUrl}}/leads/{{leadId}}
 Content-Type: application/json
@@ -33,7 +33,7 @@ Content-Type: application/json
   "EMAIL":"updatedpraveenande12@example.com"
 }
 
-### Delete Particular Record
+### 05 Delete Particular Record
 @leadId=846472000000389005
 DELETE {{baseUrl}}/leads/{{leadId}}
 Content-Type: application/json
