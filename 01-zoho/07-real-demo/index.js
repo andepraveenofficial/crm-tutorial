@@ -1,5 +1,5 @@
 import express from "express"
-import { getModuleData, getParticularRecord, createRecord } from "./zoho/zoho.utils.js";
+import { getModuleData, getParticularRecord, createRecord, updateRecord, deleteRecord } from "./zoho/zoho.utils.js";
 
 
 const app = express()
@@ -62,9 +62,49 @@ app.post("/leads", async (req, res) => {
       message: "Lead created successfully",
       details: response
     });
-    
+
   } catch (error) {
     console.error("Lead Creation Error:", error);
     res.status(500).json({ message: "Failed to create lead", error: error.toString() });
+  }
+});
+
+
+// Update a  lead
+app.put("/leads/:id", async (req, res) => {
+  try {
+    const leadData = req.body;
+    if (!leadData || typeof leadData !== "object") {
+      return res.status(400).json({ message: "Invalid lead data provided" });
+    }
+
+    const response = await updateRecord("Leads",req.params.id,leadData);
+    console.log(response);
+
+     res.status(201).json({
+      message: "Lead updated successfully",
+      details: response
+    });
+    
+  } catch (error) {
+    console.error("Lead Update Error:", error);
+    res.status(500).json({ message: "Failed to update lead", error: error.toString() });
+  }
+});
+
+// Delete Record
+app.delete("/leads/:id", async (req, res) => {
+  try {
+    const response = await deleteRecord("Leads",req.params.id);
+    console.log(response);
+
+     res.status(201).json({
+      message: "Lead deleted successfully",
+      details: response
+    });
+    
+  } catch (error) {
+    console.error("Lead Deletion Error:", error);
+    res.status(500).json({ message: "Failed to delete lead", error: error.toString() });
   }
 });

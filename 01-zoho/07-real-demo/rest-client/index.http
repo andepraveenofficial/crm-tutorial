@@ -9,7 +9,7 @@ GET {{baseUrl}}/health
 GET {{baseUrl}}/leads
 
 ### 02 Get Particular Lead
-@leadId=846472000000374028
+@leadId=846472000000389029
 GET {{baseUrl}}/leads/{{leadId}}
 
 ### Create Lead
@@ -21,3 +21,19 @@ Content-Type: application/json
   "LAST_NAME":"ande12",
   "EMAIL":"praveenande12@example.com"
 }
+
+### Update Lead
+@leadId=846472000000389029
+PUT {{baseUrl}}/leads/{{leadId}}
+Content-Type: application/json
+
+{
+  "FIRST_NAME": "updated praveen12",
+  "LAST_NAME":"updated ande12",
+  "EMAIL":"updatedpraveenande12@example.com"
+}
+
+### Delete Particular Record
+@leadId=846472000000389017
+DELETE {{baseUrl}}/leads/{{leadId}}
+Content-Type: application/json

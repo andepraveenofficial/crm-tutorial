@@ -228,5 +228,156 @@ const formattedResult = result.map(details => {
 };
 
 
+/* -----> Update Record <----- */
+const updateRecord = async (moduleName, recordId, data) => {
+  if (!moduleName || typeof moduleName !== "string") {
+    throw new Error("Invalid module name. Expected a non-empty string.");
+  }
+
+  if (!recordId || typeof recordId !== "string") {
+    throw new Error("Invalid record ID provided.");
+  }
+
+  if (!data || typeof data !== "object") {
+    throw new Error("Invalid record data provided.");
+  }
+
+  const BigIntRecordId = BigInt(recordId)
+
+  console.log("Initializing Zoho SDK...");
+  await Initializer.initialize(); // Initialize the Zoho SDK
+  console.log("Zoho SDK Initialized.");
+
+  const recordOperations = new ZOHOCRMSDK.Record.RecordOperations(moduleName);
+  const request = new ZOHOCRMSDK.Record.BodyWrapper();
+  const recordsArray = [];
+
+  // Create a new record and add field values dynamically
+  const record = new ZOHOCRMSDK.Record.Record();
+  record.addKeyValue("id", BigIntRecordId); // Set the record ID to update the specific record
+
+  // Loop through the provided data and update the fields
+  for (let [key, value] of Object.entries(data)) {
+    record.addFieldValue(ZOHOCRMSDK.Record.Field[moduleName][key], value);
+  }
+
+  await recordsArray.push(record);
+  await request.setData(recordsArray);
+
+  try {
+    const headerInstance = new ZOHOCRMSDK.HeaderMap();
+    const response = await recordOperations.updateRecord(BigIntRecordId, request, headerInstance);
+
+    if (response != null) {
+      const responseObject = response.getObject();
+
+      if (responseObject instanceof ZOHOCRMSDK.Record.ActionWrapper) {
+        const actionResponses = responseObject.getData();
+        console.log("Response from update:", actionResponses);
+
+        actionResponses.forEach(actionResponse => {
+          if (actionResponse instanceof ZOHOCRMSDK.Record.SuccessResponse) {
+            console.log("Status: " + actionResponse.getStatus().getValue());
+            console.log("Code: " + actionResponse.getCode().getValue());
+            console.log("Message: " + actionResponse.getMessage().getValue());
+          } else if (actionResponse instanceof ZOHOCRMSDK.Record.APIException) {
+            console.log("Status: " + actionResponse.getStatus().getValue());
+            console.log("Code: " + actionResponse.getCode().getValue());
+            console.log("Message: " + actionResponse.getMessage().getValue());
+          }
+        });
+
+        const result = actionResponses.map(actionResponse => {
+          if (actionResponse instanceof ZOHOCRMSDK.Record.SuccessResponse) {
+            return actionResponse.getDetails();
+          } else if (actionResponse instanceof ZOHOCRMSDK.Record.APIException) {
+            return actionResponse.getDetails();
+          }
+          return null;
+        });
+
+        // Format the result for easier readability
+        const formattedResult = result.map(details => {
+          if (details) {
+            return {
+              id: details.get('id'),
+              createdTime: details.get('Created_Time'),
+              modifiedTime: details.get('Modified_Time'),
+              createdBy: details.get('Created_By')?.name,
+              modifiedBy: details.get('Modified_By')?.name,
+            };
+          }
+          return null;
+        });
+
+        return formattedResult;
+      }
+    } else {
+      throw new Error("Failed to update record in Zoho CRM");
+    }
+  } catch (error) {
+    console.error("Error during record update:", error);
+    throw error;
+  }
+};
+
+/* -----> Delete Record <----- */
+const deleteRecord = async (moduleName, recordId) => {
+  if (!moduleName || typeof moduleName !== "string") {
+    throw new Error("Invalid module name. Expected a non-empty string.");
+  }
+
+  if (!recordId || typeof recordId !== "string") {
+    throw new Error("Invalid record ID provided.");
+  }
+
+  const BigIntRecordId = BigInt(recordId);
+
+  console.log("Initializing Zoho SDK...");
+  await Initializer.initialize(); // Initialize the Zoho SDK
+  console.log("Zoho SDK Initialized.");
+
+  const recordOperations = new ZOHOCRMSDK.Record.RecordOperations(moduleName);
+
+  try {
+    const response = await recordOperations.deleteRecord(BigIntRecordId);
+
+    if (response != null) {
+      const responseObject = response.getObject();
+
+      if (responseObject instanceof ZOHOCRMSDK.Record.ActionWrapper) {
+        const actionResponses = responseObject.getData();
+        console.log("Response from delete:", actionResponses);
+
+        actionResponses.forEach(actionResponse => {
+          if (actionResponse instanceof ZOHOCRMSDK.Record.SuccessResponse) {
+            console.log("Status: " + actionResponse.getStatus().getValue());
+            console.log("Code: " + actionResponse.getCode().getValue());
+            console.log("Message: " + actionResponse.getMessage().getValue());
+          } else if (actionResponse instanceof ZOHOCRMSDK.Record.APIException) {
+            console.log("Status: " + actionResponse.getStatus().getValue());
+            console.log("Code: " + actionResponse.getCode().getValue());
+            console.log("Message: " + actionResponse.getMessage().getValue());
+          }
+        });
+
+        return actionResponses.map(actionResponse => {
+          if (actionResponse instanceof ZOHOCRMSDK.Record.SuccessResponse) {
+            return actionResponse.getDetails();
+          } else if (actionResponse instanceof ZOHOCRMSDK.Record.APIException) {
+            return actionResponse.getDetails();
+          }
+          return null;
+        });
+      }
+    } else {
+      throw new Error("Failed to delete record in Zoho CRM");
+    }
+  } catch (error) {
+    console.error("Error during record deletion:", error);
+    throw error;
+  }
+};
+
 /* -----> Export Functions <----- */
-export { getModuleData, getParticularRecord, createRecord };
+export { getModuleData, getParticularRecord, createRecord, updateRecord, deleteRecord };
