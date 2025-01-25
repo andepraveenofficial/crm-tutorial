@@ -17,6 +17,7 @@ POST {{baseUrl}}/leads
 Content-Type: application/json
 
 {
-  "FIRST_NAME": "praveen1",
-  "LAST_NAME":"ande1"
+  "FIRST_NAME": "praveen12",
+  "LAST_NAME":"ande12",
+  "EMAIL":"praveenande12@example.com"
 }

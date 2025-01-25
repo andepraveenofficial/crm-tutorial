@@ -154,15 +154,12 @@ const createRecord = async (moduleName, data) => {
   // Create a new record and add field values dynamically
   const record = new ZOHOCRMSDK.Record.Record();
 
-  // Adjust field names to match Zoho CRM's field API
-  if (moduleName === "Leads") {
-    // For Leads module, use ZohoCRM's predefined field constants
-    record.addFieldValue(ZOHOCRMSDK.Record.Field.Leads.FIRST_NAME, data.FIRST_NAME);
-    record.addFieldValue(ZOHOCRMSDK.Record.Field.Leads.LAST_NAME, data.LAST_NAME);
+  for (let [key, value] of Object.entries(data)) {
+    record.addFieldValue(ZOHOCRMSDK.Record.Field[moduleName][key], value);
   }
 
-  recordsArray.push(record);
-  request.setData(recordsArray);
+  await recordsArray.push(record);
+  await request.setData(recordsArray);
 
   try {
     const headerInstance = new ZOHOCRMSDK.HeaderMap();
@@ -173,18 +170,53 @@ const createRecord = async (moduleName, data) => {
 
       if (responseObject instanceof ZOHOCRMSDK.Record.ActionWrapper) {
         const actionResponses = responseObject.getData();
+        console.log("andepraveen", actionResponses);
+
+        // Assuming actionResponses is an array, loop through it
+
+
 
         actionResponses.forEach(actionResponse => {
           if (actionResponse instanceof ZOHOCRMSDK.Record.SuccessResponse) {
             console.log("Status: " + actionResponse.getStatus().getValue());
             console.log("Code: " + actionResponse.getCode().getValue());
             console.log("Message: " + actionResponse.getMessage().getValue());
+  
           } else if (actionResponse instanceof ZOHOCRMSDK.Record.APIException) {
             console.log("Status: " + actionResponse.getStatus().getValue());
             console.log("Code: " + actionResponse.getCode().getValue());
             console.log("Message: " + actionResponse.getMessage().getValue());
           }
         });
+
+        const result = actionResponses.map(actionResponse => {
+          if (actionResponse instanceof ZOHOCRMSDK.Record.SuccessResponse) {
+            // Access the details for SuccessResponse
+            return actionResponse.getDetails();
+          } else if (actionResponse instanceof ZOHOCRMSDK.Record.APIException) {
+            // Access the details for APIException (if needed)
+            return actionResponse.getDetails();
+          }
+          return null;  // If neither SuccessResponse nor APIException
+        });
+
+const formattedResult = result.map(details => {
+  if (details) {
+    return {
+      id: details.get('id'),
+      createdTime: details.get('Created_Time'),
+      modifiedTime: details.get('Modified_Time'),
+      createdBy: details.get('Created_By')?.name,  // Accessing the name of the user
+      modifiedBy: details.get('Modified_By')?.name,  // Accessing the name of the user
+    };
+  }
+  return null;
+});
+
+        return formattedResult;
+
+
+        
       }
     } else {
       throw new Error("Failed to create record in Zoho CRM");

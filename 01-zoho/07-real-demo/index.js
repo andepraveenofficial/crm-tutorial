@@ -49,9 +49,8 @@ app.get("/leads/:id", async (req, res) => {
 
 // Create a new lead
 app.post("/leads", async (req, res) => {
-  console.log("Create Lead");
   try {
-    const leadData = req.body; // Field-value pairs for the lead in the request body
+    const leadData = req.body;
     if (!leadData || typeof leadData !== "object") {
       return res.status(400).json({ message: "Invalid lead data provided" });
     }
@@ -63,6 +62,7 @@ app.post("/leads", async (req, res) => {
       message: "Lead created successfully",
       details: response
     });
+    
   } catch (error) {
     console.error("Lead Creation Error:", error);
     res.status(500).json({ message: "Failed to create lead", error: error.toString() });
