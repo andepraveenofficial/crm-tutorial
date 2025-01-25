@@ -38,7 +38,8 @@ app.get("/leads", async (req, res) => {
 
 app.get("/leads/:id", async (req, res) => {
   try {
-    const lead = await getRecordById("Leads", req.params.id, "Last_Name,First_Name,Email");
+    const fields = ["First_Name","Last_Name","Email"]
+    const lead = await getRecordById("Leads", req.params.id, fields);
 
     res.status(200).json(lead);
   } catch (error) {

@@ -8,8 +8,8 @@ GET {{baseUrl}}/health
 ### 01 getModuleRecords
 GET {{baseUrl}}/leads
 
-### 02 Get Particular Lead
-@leadId=846472000000389041
+### 02 getRecord
+@leadId=846472000000382019
 GET {{baseUrl}}/leads/{{leadId}}
 
 ### 03 Create Lead
