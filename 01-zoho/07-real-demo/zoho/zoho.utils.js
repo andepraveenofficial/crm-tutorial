@@ -197,20 +197,26 @@ const getRecordById = async (moduleAPIName, recordId, fields = null) => {
 };
 
 /* -----> Create Record <----- */
-const createNewRecord = async (moduleName, data) => {
-	if (!moduleName || typeof moduleName !== "string") {
-		throw new Error("Invalid module name. Expected a non-empty string.");
-	}
+const createNewRecord = async (moduleAPIName, data) => {
 
-	if (!data || typeof data !== "object") {
+  // step1: data validation
+  if (!moduleAPIName || typeof moduleAPIName !== "string") {
+    throw new Error("Invalid module name. Expected a non-empty string.");
+  }
+
+  if (!data || typeof data !== "object") {
 		throw new Error("Invalid record data provided.");
 	}
 
-	console.log("Initializing Zoho SDK...");
-	await initializeZoho(); // Initialize the Zoho SDK
-	console.log("Zoho SDK Initialized.");
+  // step2 : initialize the SDK
+  console.log("Initializing Zoho SDK...");
+  await initializeZoho(); // Initialize the Zoho SDK
+  console.log("Zoho SDK Initialized.");
 
-	const recordOperations = new ZOHOCRMSDK.Record.RecordOperations(moduleName);
+  // step3: create Record Operations instance
+  const recordOperations = new ZOHOCRMSDK.Record.RecordOperations(moduleAPIName);
+
+// step4: create body instance
 	const request = new ZOHOCRMSDK.Record.BodyWrapper();
 	const recordsArray = [];
 
@@ -218,7 +224,7 @@ const createNewRecord = async (moduleName, data) => {
 	const record = new ZOHOCRMSDK.Record.Record();
 
 	for (let [key, value] of Object.entries(data)) {
-		record.addFieldValue(ZOHOCRMSDK.Record.Field[moduleName][key], value);
+		record.addFieldValue(ZOHOCRMSDK.Record.Field[moduleAPIName][key], value);
 	}
 
 	await recordsArray.push(record);
@@ -237,21 +243,6 @@ const createNewRecord = async (moduleName, data) => {
 			if (responseObject instanceof ZOHOCRMSDK.Record.ActionWrapper) {
 				const actionResponses = responseObject.getData();
 				console.log("andepraveen", actionResponses);
-
-				// Assuming actionResponses is an array, loop through it
-
-				actionResponses.forEach((actionResponse) => {
-					if (actionResponse instanceof ZOHOCRMSDK.Record.SuccessResponse) {
-						console.log("Status: " + actionResponse.getStatus().getValue());
-						console.log("Code: " + actionResponse.getCode().getValue());
-						console.log("Message: " + actionResponse.getMessage().getValue());
-					} else if (actionResponse instanceof ZOHOCRMSDK.Record.APIException) {
-						console.log("Status: " + actionResponse.getStatus().getValue());
-						console.log("Code: " + actionResponse.getCode().getValue());
-						console.log("Message: " + actionResponse.getMessage().getValue());
-					}
-				});
-
 				const result = actionResponses.map((actionResponse) => {
 					if (actionResponse instanceof ZOHOCRMSDK.Record.SuccessResponse) {
 						// Access the details for SuccessResponse
@@ -288,79 +279,81 @@ const createNewRecord = async (moduleName, data) => {
 };
 
 /* -----> Update Record <----- */
-const updateRecordById = async (moduleName, recordId, data) => {
-	if (!moduleName || typeof moduleName !== "string") {
-		throw new Error("Invalid module name. Expected a non-empty string.");
-	}
+const updateRecordById = async (moduleAPIName, recordId, data) => {
 
-	if (!recordId || typeof recordId !== "string") {
-		throw new Error("Invalid record ID provided.");
-	}
+  try {
+		// step1: data validation
+		if (!moduleAPIName || typeof moduleAPIName !== "string") {
+			throw new Error("Invalid module name. Expected a non-empty string.");
+		}
 
-	if (!data || typeof data !== "object") {
+    if (!recordId || typeof recordId !== "string") {
+      throw new Error("Invalid record ID provided.");
+    }
+
+    if (!data || typeof data !== "object") {
 		throw new Error("Invalid record data provided.");
 	}
 
-	const BigIntRecordId = BigInt(recordId);
+		// step2 : initialize the SDK
+    console.log("Initializing Zoho SDK...");
+	  await initializeZoho(); // Initialize the Zoho SDK
+	  console.log("Zoho SDK Initialized.");
 
-	console.log("Initializing Zoho SDK...");
-	await initializeZoho(); // Initialize the Zoho SDK
-	console.log("Zoho SDK Initialized.");
 
-	const recordOperations = new ZOHOCRMSDK.Record.RecordOperations(moduleName);
-	const request = new ZOHOCRMSDK.Record.BodyWrapper();
-	const recordsArray = [];
+		// step3: create Record Operations instance
+		const recordOperations = new ZOHOCRMSDK.Record.RecordOperations(moduleAPIName);
 
-	// Create a new record and add field values dynamically
+
+    // step4: create body instance
+    const request = new ZOHOCRMSDK.Record.BodyWrapper();
+	  const recordsArray = [];
+
+   const bigIntRecordId = BigInt(recordId);
+  
+   // Create a new record and add field values dynamically
 	const record = new ZOHOCRMSDK.Record.Record();
-	record.addKeyValue("id", BigIntRecordId); // Set the record ID to update the specific record
+	record.addKeyValue("id", bigIntRecordId); // Set the record ID to update the specific record
 
 	// Loop through the provided data and update the fields
 	for (let [key, value] of Object.entries(data)) {
-		record.addFieldValue(ZOHOCRMSDK.Record.Field[moduleName][key], value);
+		record.addFieldValue(ZOHOCRMSDK.Record.Field[moduleAPIName][key], value);
 	}
 
-	await recordsArray.push(record);
-	await request.setData(recordsArray);
+	 await recordsArray.push(record);
+	 await request.setData(recordsArray);
 
-	try {
-		const headerInstance = new ZOHOCRMSDK.HeaderMap();
-		const response = await recordOperations.updateRecord(
-			BigIntRecordId,
+  // step5: Handle Response
+  		const response = await recordOperations.updateRecord(
+			bigIntRecordId,
 			request,
-			headerInstance
+			new ZOHOCRMSDK.HeaderMap()
 		);
 
-		if (response != null) {
+		if (!response) {
+			console.log("No response from Zoho CRM");
+			return {
+				message: "No response from Zoho CRM",
+			};
+		} else {
 			const responseObject = response.getObject();
+      console.log("Response object", responseObject);
 
-			if (responseObject instanceof ZOHOCRMSDK.Record.ActionWrapper) {
+			if (responseObject instanceof ZOHOCRMSDK.Record.ResponseWrapper) {
 				const actionResponses = responseObject.getData();
-				console.log("Response from update:", actionResponses);
+        console.log("Response from update:", actionResponses);
+				
+        // Ensure records are mapped correctly
+        const result = actionResponses.map((actionResponse) => {
+          				if (actionResponse instanceof ZOHOCRMSDK.Record.SuccessResponse) {
+          					return actionResponse.getDetails();
+          				} else if (actionResponse instanceof ZOHOCRMSDK.Record.APIException) {
+          					return actionResponse.getDetails();
+          				}
+          				return null;
+          			});
 
-				actionResponses.forEach((actionResponse) => {
-					if (actionResponse instanceof ZOHOCRMSDK.Record.SuccessResponse) {
-						console.log("Status: " + actionResponse.getStatus().getValue());
-						console.log("Code: " + actionResponse.getCode().getValue());
-						console.log("Message: " + actionResponse.getMessage().getValue());
-					} else if (actionResponse instanceof ZOHOCRMSDK.Record.APIException) {
-						console.log("Status: " + actionResponse.getStatus().getValue());
-						console.log("Code: " + actionResponse.getCode().getValue());
-						console.log("Message: " + actionResponse.getMessage().getValue());
-					}
-				});
-
-				const result = actionResponses.map((actionResponse) => {
-					if (actionResponse instanceof ZOHOCRMSDK.Record.SuccessResponse) {
-						return actionResponse.getDetails();
-					} else if (actionResponse instanceof ZOHOCRMSDK.Record.APIException) {
-						return actionResponse.getDetails();
-					}
-					return null;
-				});
-
-				// Format the result for easier readability
-				const formattedResult = result.map((details) => {
+        const formattedResult = result.map((details) => {
 					if (details) {
 						return {
 							id: details.get("id"),
@@ -373,37 +366,45 @@ const updateRecordById = async (moduleName, recordId, data) => {
 					return null;
 				});
 
+        console.log(formattedResult);
 				return formattedResult;
+
 			}
-		} else {
-			throw new Error("Failed to update record in Zoho CRM");
+
+    // If responseObject is not an instance of ResponseWrapper
+		console.log("Unexpected response format from Zoho CRM");
+		return { message: "Unexpected response format" };
 		}
 	} catch (error) {
-		console.error("Error during record update:", error);
+		console.error(`Error fetching record from ${moduleAPIName}:`, error);
 		throw error;
 	}
 };
 
 /* -----> Delete Record <----- */
-const deleteRecordById = async (moduleName, recordId) => {
-	if (!moduleName || typeof moduleName !== "string") {
-		throw new Error("Invalid module name. Expected a non-empty string.");
-	}
+const deleteRecordById = async (moduleAPIName, recordId) => {
+  // step1: data validation
+  if (!moduleAPIName || typeof moduleAPIName !== "string") {
+    throw new Error("Invalid module name. Expected a non-empty string.");
+  }
 
-	if (!recordId || typeof recordId !== "string") {
-		throw new Error("Invalid record ID provided.");
-	}
+  if (!recordId || typeof recordId !== "string") {
+    throw new Error("Invalid record ID provided.");
+  }
 
-	const BigIntRecordId = BigInt(recordId);
+  // step2 : initialize the SDK
+  console.log("Initializing Zoho SDK...");
+  await initializeZoho(); // Initialize the Zoho SDK
+  console.log("Zoho SDK Initialized.");
 
-	console.log("Initializing Zoho SDK...");
-	await initializeZoho(); // Initialize the Zoho SDK
-	console.log("Zoho SDK Initialized.");
 
-	const recordOperations = new ZOHOCRMSDK.Record.RecordOperations(moduleName);
+  // step3: create Record Operations instance
+  const recordOperations = new ZOHOCRMSDK.Record.RecordOperations(moduleAPIName);
+
 
 	try {
-		const response = await recordOperations.deleteRecord(BigIntRecordId);
+    const bigIntRecordId = BigInt(recordId);
+		const response = await recordOperations.deleteRecord(bigIntRecordId);
 
 		if (response != null) {
 			const responseObject = response.getObject();
@@ -411,20 +412,6 @@ const deleteRecordById = async (moduleName, recordId) => {
 			if (responseObject instanceof ZOHOCRMSDK.Record.ActionWrapper) {
 				const actionResponses = responseObject.getData();
 				console.log("Response from delete:", actionResponses);
-
-				// Process action responses and log details
-				actionResponses.forEach((actionResponse) => {
-					if (actionResponse instanceof ZOHOCRMSDK.Record.SuccessResponse) {
-						console.log("Status: " + actionResponse.getStatus().getValue());
-						console.log("Code: " + actionResponse.getCode().getValue());
-						console.log("Message: " + actionResponse.getMessage().getValue());
-					} else if (actionResponse instanceof ZOHOCRMSDK.Record.APIException) {
-						console.log("Status: " + actionResponse.getStatus().getValue());
-						console.log("Code: " + actionResponse.getCode().getValue());
-						console.log("Message: " + actionResponse.getMessage().getValue());
-					}
-				});
-
 				// Map the response to structured data
 				const result = actionResponses.map((actionResponse) => {
 					if (actionResponse instanceof ZOHOCRMSDK.Record.SuccessResponse) {
