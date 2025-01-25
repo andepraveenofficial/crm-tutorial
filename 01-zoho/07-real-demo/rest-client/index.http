@@ -34,6 +34,6 @@ Content-Type: application/json
 }
 
 ### Delete Particular Record
-@leadId=846472000000389017
+@leadId=846472000000389005
 DELETE {{baseUrl}}/leads/{{leadId}}
 Content-Type: application/json

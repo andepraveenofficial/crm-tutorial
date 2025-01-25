@@ -322,6 +322,7 @@ const updateRecord = async (moduleName, recordId, data) => {
 };
 
 /* -----> Delete Record <----- */
+/* -----> Delete Record <----- */
 const deleteRecord = async (moduleName, recordId) => {
   if (!moduleName || typeof moduleName !== "string") {
     throw new Error("Invalid module name. Expected a non-empty string.");
@@ -349,6 +350,7 @@ const deleteRecord = async (moduleName, recordId) => {
         const actionResponses = responseObject.getData();
         console.log("Response from delete:", actionResponses);
 
+        // Process action responses and log details
         actionResponses.forEach(actionResponse => {
           if (actionResponse instanceof ZOHOCRMSDK.Record.SuccessResponse) {
             console.log("Status: " + actionResponse.getStatus().getValue());
@@ -361,7 +363,8 @@ const deleteRecord = async (moduleName, recordId) => {
           }
         });
 
-        return actionResponses.map(actionResponse => {
+        // Map the response to structured data
+        const result = actionResponses.map(actionResponse => {
           if (actionResponse instanceof ZOHOCRMSDK.Record.SuccessResponse) {
             return actionResponse.getDetails();
           } else if (actionResponse instanceof ZOHOCRMSDK.Record.APIException) {
@@ -369,6 +372,19 @@ const deleteRecord = async (moduleName, recordId) => {
           }
           return null;
         });
+
+        // Format the result for easier readability
+        const formattedResult = result.map(details => {
+          if (details) {
+            return {
+              id: details.get('id'),
+            };
+          }
+          return null;
+        });
+
+
+        return formattedResult;
       }
     } else {
       throw new Error("Failed to delete record in Zoho CRM");
