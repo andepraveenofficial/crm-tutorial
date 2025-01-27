@@ -6,7 +6,7 @@ const port = 5000;
 
 /* -----> zoho modules <----- */
 import {GetModules} from './zoho/modules/index.js';
-import { GetRecords } from './zoho/records/index.js';
+import { GetRecord, GetRecords } from './zoho/records/index.js';
 
 /**
  * Global Zoho SDK Initialization
@@ -34,6 +34,7 @@ app.get('/health', (req, res) => {
 
 
 /* -----> Modules <----- */
+// 01 Get All Modules
 app.get('/modules', async (req, res) => {
   try {
    const result = await GetModules.getModules();
@@ -45,11 +46,12 @@ app.get('/modules', async (req, res) => {
 })
 
 /* -----> Records <----- */
+// 01 Get All Records
 app.get('/records', async (req, res) => {
   try {
     let moduleAPIName = "leads";
-    const options = {pageNo:1, recordsPerPage:100};
     const fieldNames = ["Last_Name", "First_Name", "Email"];
+    const options = {pageNo:1, recordsPerPage:100};
     const result = await GetRecords.getRecords(moduleAPIName, fieldNames, options);
     console.log("Result from GetRecords:", result); 
      res.status(200).json(result);
@@ -59,7 +61,28 @@ app.get('/records', async (req, res) => {
    }
 })
 
+// 02 Get a Single Record
+app.get('/records/:recordId', async (req, res) => {
+  try {
+    const moduleAPIName = "leads";
+    const recordId = BigInt(req.params.recordId); 
+    const fieldNames = ["Last_Name", "First_Name", "Email"];
+    let destinationFolder = "./data";
+    const result = await GetRecord.getRecord(moduleAPIName, recordId, fieldNames, destinationFolder);
+    console.log("Result from GetRecords:", result); 
+     res.status(200).json(result);
+
+   } catch (error) {
+     res.status(500).json({ message: "Failed to fetch a Single Record", error: error.toString() });
+   }
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
      
+
+
+/* -----> Checking <----- */
+
+

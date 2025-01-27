@@ -8,8 +8,11 @@ GET {{baseUrl}}/health
 ### 01 Get All Modules
 GET {{baseUrl}}/modules
 
-
 ### Records ###
 
 ### 01 Get All Records
 GET {{baseUrl}}/records
+
+### 02 Get a Single Record
+@recordId=846472000000388002
+GET {{baseUrl}}/records/{{recordId}}
