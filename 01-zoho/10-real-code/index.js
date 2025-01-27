@@ -4,9 +4,11 @@ import Initializer  from './zoho/zoho.config.js';
 const app = express()
 const port = 5000;
 
+app.use(express.json());
+
 /* -----> zoho modules <----- */
 import {GetModules} from './zoho/modules/index.js';
-import { GetRecord, GetRecords } from './zoho/records/index.js';
+import { GetRecord, GetRecords, CreateRecord } from './zoho/records/index.js';
 
 /**
  * Global Zoho SDK Initialization
@@ -77,12 +79,22 @@ app.get('/records/:recordId', async (req, res) => {
    }
 })
 
+
+// 02 Create a Single Record
+app.post('/records', async (req, res) => {
+  try {
+    const  moduleAPIName = "Leads";
+    const data = req.body;
+   const result = await CreateRecord.createRecord(moduleAPIName, data);
+     console.log("Result from GetRecords:", result); 
+     res.status(200).json(result);
+
+   } catch (error) {
+     res.status(500).json({ message: "Failed to fetch a Single Record", error: error.toString() });
+   }
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
      
-
-
-/* -----> Checking <----- */
-
-

@@ -14,5 +14,15 @@ GET {{baseUrl}}/modules
 GET {{baseUrl}}/records
 
 ### 02 Get a Single Record
-@recordId=846472000000388002
+@recordId=846472000000423034
 GET {{baseUrl}}/records/{{recordId}}
+
+### 03 Create Record
+POST {{baseUrl}}/records
+Content-Type: application/json
+
+{
+  "First_Name":"praveen6",
+  "Last_Name": "ande6",
+  "Email":"praveenande6@gmail.com"
+}
