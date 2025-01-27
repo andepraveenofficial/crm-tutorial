@@ -14,7 +14,7 @@ GET {{baseUrl}}/modules
 GET {{baseUrl}}/records
 
 ### 02 Get a Single Record
-@recordId=846472000000424101
+@recordId=846472000000438016
 GET {{baseUrl}}/records/{{recordId}}
 
 ### 03 Create Record
@@ -27,7 +27,7 @@ Content-Type: application/json
   "Email":"praveenande7@gmail.com"
 }
 
-### 04 Update Record
+### 04 Update a Record
 @updateRecordId=846472000000424101
 PUT {{baseUrl}}/records/{{updateRecordId}}
 Content-Type: application/json
@@ -37,3 +37,7 @@ Content-Type: application/json
   "Last_Name": "updated ande6",
   "Email":"updatepraveenande6@gmail.com"
 }
+
+### 05 Delete a Record
+@deleteRecordId=846472000000438016
+DELETE {{baseUrl}}/records/{{deleteRecordId}}

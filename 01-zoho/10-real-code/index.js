@@ -8,7 +8,7 @@ app.use(express.json());
 
 /* -----> zoho modules <----- */
 import {GetModules} from './zoho/modules/index.js';
-import { GetRecord, GetRecords, CreateRecord, UpdateRecord } from './zoho/records/index.js';
+import { GetRecord, GetRecords, CreateRecord, UpdateRecord, DeleteRecord } from './zoho/records/index.js';
 
 /**
  * Global Zoho SDK Initialization
@@ -101,6 +101,20 @@ app.put('/records/:recordId', async (req, res) => {
     const recordId = BigInt(req.params.recordId); 
     const data = req.body;
    const result = await UpdateRecord.updateRecord(moduleAPIName, recordId, data);
+     console.log("Result from GetRecords:", result); 
+     res.status(200).json(result);
+
+   } catch (error) {
+     res.status(500).json({ message: "Failed to fetch a Single Record", error: error.toString() });
+   }
+})
+
+// 04 Delete a Single Record
+app.delete('/records/:recordId', async (req, res) => {
+  try {
+    const  moduleAPIName = "Leads";
+    const recordId = BigInt(req.params.recordId); 
+   const result = await DeleteRecord.deleteRecord(moduleAPIName, recordId);
      console.log("Result from GetRecords:", result); 
      res.status(200).json(result);
 
