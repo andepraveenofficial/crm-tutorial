@@ -1,0 +1,7 @@
+@baseUrl=http://localhost:5000
+
+### Health
+GET {{baseUrl}}/health
+
+### Get Modules
+GET {{baseUrl}}/modules
