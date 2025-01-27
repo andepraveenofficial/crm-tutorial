@@ -8,7 +8,7 @@ app.use(express.json());
 
 /* -----> zoho modules <----- */
 import {GetModules} from './zoho/modules/index.js';
-import { GetRecord, GetRecords, CreateRecord } from './zoho/records/index.js';
+import { GetRecord, GetRecords, CreateRecord, UpdateRecord } from './zoho/records/index.js';
 
 /**
  * Global Zoho SDK Initialization
@@ -86,6 +86,21 @@ app.post('/records', async (req, res) => {
     const  moduleAPIName = "Leads";
     const data = req.body;
    const result = await CreateRecord.createRecord(moduleAPIName, data);
+     console.log("Result from GetRecords:", result); 
+     res.status(200).json(result);
+
+   } catch (error) {
+     res.status(500).json({ message: "Failed to fetch a Single Record", error: error.toString() });
+   }
+})
+
+// 03 Update a Single Record
+app.put('/records/:recordId', async (req, res) => {
+  try {
+    const  moduleAPIName = "Leads";
+    const recordId = BigInt(req.params.recordId); 
+    const data = req.body;
+   const result = await UpdateRecord.updateRecord(moduleAPIName, recordId, data);
      console.log("Result from GetRecords:", result); 
      res.status(200).json(result);
 

@@ -14,7 +14,7 @@ GET {{baseUrl}}/modules
 GET {{baseUrl}}/records
 
 ### 02 Get a Single Record
-@recordId=846472000000423034
+@recordId=846472000000424101
 GET {{baseUrl}}/records/{{recordId}}
 
 ### 03 Create Record
@@ -22,7 +22,18 @@ POST {{baseUrl}}/records
 Content-Type: application/json
 
 {
-  "First_Name":"praveen6",
-  "Last_Name": "ande6",
-  "Email":"praveenande6@gmail.com"
+  "First_Name":"praveen7",
+  "Last_Name": "ande7",
+  "Email":"praveenande7@gmail.com"
+}
+
+### 04 Update Record
+@updateRecordId=846472000000424101
+PUT {{baseUrl}}/records/{{updateRecordId}}
+Content-Type: application/json
+
+{
+  "First_Name":"updated praveen6",
+  "Last_Name": "updated ande6",
+  "Email":"updatepraveenande6@gmail.com"
 }

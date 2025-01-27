@@ -160,6 +160,7 @@ class CreateRecord {
                     actionResponses.forEach(actionResponse => {
                         if (actionResponse instanceof ZOHOCRMSDK.Record.SuccessResponse) {
                           let details = actionResponse.getDetails();
+                          // handle respone
                           let responseData = {
                             status: actionResponse.getStatus().getValue(),
                             code: actionResponse.getCode().getValue(),
