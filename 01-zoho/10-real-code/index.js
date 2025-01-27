@@ -42,6 +42,18 @@ app.get('/modules', async (req, res) => {
   }
 })
 
+app.get('/records', async (req, res) => {
+  try {
+    // const result = await GetModules.getRecords("Leads");
+    console.log("Result from GetRecords:", result); 
+    //  res.status(200).json(result);
+     res.status(200).json({ message: "Records fetched successfully" });
+
+   } catch (error) {
+     res.status(500).json({ message: "Failed to fetch records", error: error.toString() });
+   }
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })

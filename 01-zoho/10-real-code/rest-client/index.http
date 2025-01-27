@@ -3,5 +3,11 @@
 ### Health
 GET {{baseUrl}}/health
 
-### Get Modules
+### Modules ###
+
+### 01 Get All Modules
 GET {{baseUrl}}/modules
+
+
+### Records ###
+GET {{baseUrl}}/records
