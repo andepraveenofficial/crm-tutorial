@@ -10,4 +10,6 @@ GET {{baseUrl}}/modules
 
 
 ### Records ###
+
+### 01 Get All Records
 GET {{baseUrl}}/records
