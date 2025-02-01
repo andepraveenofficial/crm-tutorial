@@ -22,9 +22,9 @@ POST {{baseUrl}}/records
 Content-Type: application/json
 
 {
-  "First_Name":"praveen7",
-  "Last_Name": "ande7",
-  "Email":"praveenande7@gmail.com"
+  "First_Name":"praveen8",
+  "Last_Name": "ande8",
+  "Email":"praveenande8@gmail.com"
 }
 
 ### 04 Update a Record

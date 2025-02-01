@@ -12,6 +12,9 @@ import { GetRecord, GetRecords, CreateRecord, UpdateRecord, DeleteRecord } from 
 
 /**
  * Global Zoho SDK Initialization
+ * 
+ * This step initializes the Zoho SDK once at app startup.
+ * If initialization fails, the app will exit with code 1.
  */
 (async () => {
   try {
@@ -33,7 +36,6 @@ app.get('/health', (req, res) => {
     }
   );
 })
-
 
 /* -----> Modules <----- */
 // 01 Get All Modules
@@ -126,4 +128,3 @@ app.delete('/records/:recordId', async (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
-     
